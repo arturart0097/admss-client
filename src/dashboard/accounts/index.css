@@ -1,0 +1,119 @@
+.account__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.account-top-controls {
+    display: flex;
+    gap: 20px;
+}
+
+.account__accordion {
+    border: none;
+    width: 343px;
+}
+
+.account__accordion .p-accordion-header .p-accordion-header-link,
+.account__accordion .p-accordion-header.p-highlight:hover .p-accordion-header-link:hover,
+.account__accordion
+    .p-accordion-header:not(.p-highlight):not(.p-disabled):hover
+    .p-accordion-header-link,
+.account__accordion .p-accordion-header.p-highlight .p-accordion-header-link[aria-expanded="true"] {
+    border: none;
+    background: white;
+    box-shadow: none;
+    background-color: white;
+}
+
+.account__accordion .p-steps .p-steps-item .p-menuitem-link:not(.p-disabled):focus,
+.account__accordion .p-steps .p-steps-item .p-menuitem-link:focus {
+    box-shadow: none;
+}
+
+.account__accordion .p-accordion-content {
+    padding: 0;
+    border: none;
+}
+
+.account-form {
+    width: 100%;
+    padding: 0 40px;
+    min-height: 705px;
+    border-right: 2px solid var(--admss-app-light-blue);
+    border-left: 2px solid var(--admss-app-light-blue);
+}
+
+.account-form__title {
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.account-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.account__menubar {
+    background-color: transparent;
+    font-weight: 700;
+    border: 1px solid var(--admss-app-light-grey);
+    height: 50px;
+    width: 246px;
+
+    .p-menuitem-link {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .p-submenu-list {
+        z-index: 99;
+    }
+    .p-menubar-root-list > .p-menuitem > .p-menuitem-link:focus {
+        box-shadow: none;
+    }
+
+    .p-icon {
+        scale: 1.5;
+    }
+
+    .p-submenu-list {
+        .p-menuitem-text {
+            font-weight: 400;
+            padding-left: 10px;
+        }
+    }
+
+    .p-menuitem-active {
+        .p-icon {
+            rotate: 180deg;
+        }
+    }
+}
+
+.account-history__button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 54px;
+    width: 210px;
+    font-weight: 700;
+}
+
+.account__dropdown.column-picker {
+    max-width: 245px;
+}
+
+.custom-dropdown-input {
+    display: flex;
+    justify-content: center;
+    border-right: 1px solid #ccc !important;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #b7b7b7;
+}
+
