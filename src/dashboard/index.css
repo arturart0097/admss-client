@@ -317,7 +317,7 @@
 
 .splitter__line {
     border: none;
-    border-top: 1px solid #E7E7E7;
+    border-top: 1px solid var(--admss-app-lightest-grey);
     margin-top: 12px;
 }
 
